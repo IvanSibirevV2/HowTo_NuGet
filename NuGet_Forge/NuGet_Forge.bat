@@ -1,7 +1,5 @@
 @echo off
-cd C:\D\Git_Hub\HowTo_CSharp\NuGet\NuGet_Temp
-
-
+cd C:\D\Git_Hub\HowTo_NuGet\NuGet_Forge
 
 call :menu.init
 :m_hgbdfksgsd
