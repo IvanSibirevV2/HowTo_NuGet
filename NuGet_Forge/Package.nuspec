@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Package</id>
-    <version>1.0.0</version>
-    <authors>SibNout2020</authors>
+    <id>NuGet_Forge</id>
+    <version>0.0.1</version>
+    <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">MIT</license>
-    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
-    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>$copyright$</copyright>
-    <tags>Tag1 Tag2</tags>
+    <license type="expression">Freeware</license>
+    <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet.git</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/IvanSibirevV2/HowTo_NuGet/master/Icon.png</iconUrl>
+    <description>Nugget Win-Script Tool for Packaging</description>
+    <releaseNotes>Trying to do something right</releaseNotes>
+    <tags>NuGet Bat CMD Dos WinDos SibirevIvanV2</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.1">
         <dependency id="SampleDependency" version="1.0.0" />
       </group>
     </dependencies>
   </metadata>
+  <files>
+    <file src=".\NuGet_Forge.bat" target="NuGet_Forge" />
+    <file src=".\nuget.exe" target="NuGet_Forge" />
+    <file src=".\ReadMe.txt" target="NuGet_Forge" />
+  </files>
 </package>
