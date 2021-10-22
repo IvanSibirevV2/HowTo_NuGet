@@ -18,7 +18,7 @@ EXIT
 
 :menu.init
 	set menu.id=1
-	set menu.APIKey=oy2atcx23nwyapsxmuqq4waa3vubhiseza2uxln4pt2x7q
+	set menu.APIKey=
 exit /b 0
 rem w - upp
 :menu.Choice1
