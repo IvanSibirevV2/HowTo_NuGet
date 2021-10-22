@@ -5,7 +5,6 @@
     <version>0.0.1</version>
     <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">Freeware</license>
     <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet.git</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/IvanSibirevV2/HowTo_NuGet/master/Icon.png</iconUrl>
     <description>Nugget Win-Script Tool for Packaging</description>

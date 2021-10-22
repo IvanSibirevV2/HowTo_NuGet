@@ -1,0 +1,10 @@
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\bin\Debug\TTK.dll
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\bin\Debug\TTK.pdb
+C:\D\Git_Hub\HowTo_NuGet\Example\ConsoleApp1\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CopyComplete

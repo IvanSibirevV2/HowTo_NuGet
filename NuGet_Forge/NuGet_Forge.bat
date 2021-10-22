@@ -1,6 +1,8 @@
 @echo off
-cd C:\D\Git_Hub\HowTo_NuGet\NuGet_Forge
-
+if "%cd%" EQU "C:\Program Files\Notepad++" (
+	cd C:\D\Git_Hub\HowTo_NuGet\NuGet_Forge
+)
+echo %cd%
 call :menu.init
 :m_hgbdfksgsd
 	echo ##################################
@@ -16,6 +18,7 @@ EXIT
 
 :menu.init
 	set menu.id=1
+	set menu.APIKey=oy2atcx23nwyapsxmuqq4waa3vubhiseza2uxln4pt2x7q
 exit /b 0
 rem w - upp
 :menu.Choice1
@@ -54,8 +57,7 @@ rem w - upp
 	if "%1" EQU "" (
 		if %menu.id% EQU 5 echo * nuget delete ^<packageID^> ^<packageVersion^> -apikey [...] -Source [...]
 		if %menu.id% NEQ 5 echo nuget delete ^<packageID^> ^<packageVersion^> -apikey [...] -Source [...]
-	)else (if %menu.id% EQU 5 nuget delete %PackageID% %packageVersion% -Source https://www.nuget.org/ -apikey oy2a42l6o4oyrf2onb5agpcnybjdndmevkqootw2luis4q)
-
+	)else (if %menu.id% EQU 5 nuget delete %PackageID% %packageVersion% -Source https://www.nuget.org/ -apikey %menu.APIKey%)
 	::)else (if %menu.id% EQU 5 nuget delete -apikey oy2a42l6o4oyrf2onb5agpcnybjdndmevkqootw2luis4q)
 	::-apikey
 exit /b 0
