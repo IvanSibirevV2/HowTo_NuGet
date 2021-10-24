@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+ee<?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
     <id>NuGet_Forge</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet.git</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/IvanSibirevV2/HowTo_NuGet/master/Icon.png</iconUrl>
     <description>Nugget Win-Script Tool for Packaging</description>
-    <releaseNotes>Trying to do something right</releaseNotes>
+    <releaseNotes>
+	update ReadMe_CMD_BAT_Adapter_Forge from V0.0.1 to V0.0.2
+    </releaseNotes>
     <tags>NuGet Bat CMD Dos WinDos SibirevIvanV2</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.1">
@@ -16,7 +18,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src=".\NuGet_Forge.bat" target="NuGet_Forge" />
+    <file src=".\NuGet_Forge.0.0.3.bat" target="NuGet_Forge" />
     <file src=".\nuget.exe" target="NuGet_Forge" />
     <file src=".\NuGet_Forge_ReadMe.txt" target="NuGet_Forge" />
   </files>
