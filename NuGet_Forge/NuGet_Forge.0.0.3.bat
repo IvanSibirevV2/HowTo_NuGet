@@ -1,5 +1,6 @@
 Rem V0.0.2
 @echo off
+cd %~dp0
 if "%cd%" EQU "C:\Program Files\Notepad++" (
 	cd C:\D\Git_Hub\HowTo_NuGet\NuGet_Forge
 )
@@ -50,7 +51,13 @@ rem Пункты меню вписывать сюда.
 	if "%1" EQU "" (
 		if %menu.id% EQU %menu.counter% (echo * notepad Package.nuspec)
 		if %menu.id% NEQ %menu.counter% (echo notepad Package.nuspec)
-	)else (if %menu.id% EQU %menu.counter% notepad Package.nuspec)
+	)else (if %menu.id% EQU %menu.counter% (notepad Package.nuspec)&&(nuget pack))
+	:::::::::::::::::::::::::::::::::::::::::::::::::::
+	set /a menu.counter= %menu.counter%+1
+	if "%1" EQU "" (
+		if %menu.id% EQU %menu.counter% (echo * notepad NuGet_Forge_ReadMe.txt)
+		if %menu.id% NEQ %menu.counter% (echo notepad NuGet_Forge_ReadMe.txt)
+	)else (if %menu.id% EQU %menu.counter% notepad NuGet_Forge_ReadMe.txt)
 	:::::::::::::::::::::::::::::::::::::::::::::::::::
 	set /a menu.counter= %menu.counter%+1
 	if "%1" EQU "" (

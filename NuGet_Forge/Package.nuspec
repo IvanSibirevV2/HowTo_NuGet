@@ -21,5 +21,6 @@
     <file src=".\NuGet_Forge.0.0.3.bat" target="NuGet_Forge" />
     <file src=".\nuget.exe" target="NuGet_Forge" />
     <file src=".\NuGet_Forge_ReadMe.txt" target="NuGet_Forge" />
+    <file src=".\Example\Package_ArgeCode.nuspec" target="Example" />
   </files>
 </package>
