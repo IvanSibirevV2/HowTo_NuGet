@@ -5,7 +5,7 @@ ee<?xml version="1.0" encoding="utf-8"?>
     <version>0.0.3</version>
     <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet.git</projectUrl>
+    <projectUrl></projectUrl>
     <iconUrl>https://raw.githubusercontent.com/IvanSibirevV2/HowTo_NuGet/master/Icon.png</iconUrl>
     <description>Nugget Win-Script Tool for Packaging</description>
     <releaseNotes>
