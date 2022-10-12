@@ -1,11 +1,11 @@
-ee<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
     <id>NuGet_Forge</id>
     <version>0.0.3</version>
     <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectUrl></projectUrl>
+    <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/IvanSibirevV2/HowTo_NuGet/master/Icon.png</iconUrl>
     <description>Nugget Win-Script Tool for Packaging</description>
     <releaseNotes>
