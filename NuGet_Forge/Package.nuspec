@@ -2,25 +2,27 @@
 <package >
   <metadata>
     <id>NuGet_Forge</id>
-    <version>0.0.3</version>
+    <version>0.0.7</version>
     <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/IvanSibirevV2/HowTo_NuGet/master/Icon.png</iconUrl>
+    <repository type="git" url="https://github.com/IvanSibirevV2/HowTo_NuGet" />
+    <icon>USSSR.png</icon>
+    <license type="file">LICENSE.txt</license>
     <description>Nugget Win-Script Tool for Packaging</description>
-    <releaseNotes>
-	update ReadMe_CMD_BAT_Adapter_Forge from V0.0.1 to V0.0.2
-    </releaseNotes>
-    <tags>NuGet Bat CMD Dos WinDos SibirevIvanV2</tags>
+    <releaseNotes> update ReadMe_CMD_BAT_Adapter_Forge from V0.0.1 to V0.0.2 </releaseNotes>
+    <tags>NuGet Bat CMD Dos WinDos SibirevIvanV2 https://translate.yandex.ru/</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.1">
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src=".\NuGet_Forge.0.0.3.bat" target="NuGet_Forge" />
+    <file src=".\NuGet_Forge.bat" target="NuGet_Forge" />
     <file src=".\nuget.exe" target="NuGet_Forge" />
     <file src=".\NuGet_Forge_ReadMe.txt" target="NuGet_Forge" />
-    <file src=".\Example\Package_ArgeCode.nuspec" target="Example" />
+    <file src=".\Example\Package_ArgeCode.nuspec" target="\Example" />
+    <file src="USSSR.png" target="" />
+    <file src="LICENSE.txt" target="" />
   </files>
 </package>
