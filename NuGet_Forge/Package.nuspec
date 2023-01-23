@@ -2,16 +2,14 @@
 <package >
   <metadata>
     <id>NuGet_Forge</id>
-    <version>0.0.12</version>
+    <version>0.0.13</version>
     <authors>SibirevIvanV2</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/IvanSibirevV2/HowTo_NuGet</projectUrl>
     <repository type="git" url="https://github.com/IvanSibirevV2/HowTo_NuGet" />
     <icon>USSSR.png</icon>
     <description>Nugget Win-Script Tool for Packaging</description>
-    <releaseNotes> update ReadMe_CMD_BAT_Adapter_Forge from V0.0.11 to V0.0.12 
-+ Compact CMD UserMenu - this should be more understandable
-+ git clone ... for: Sources, Examples, Help - this should be more useable to downloading examples and sources as needed.
+    <releaseNotes> Добавлены средства отладки пути
 </releaseNotes>
     <tags>NuGet Bat CMD Dos WinDos SibirevIvanV2</tags>
     <dependencies>
@@ -20,10 +18,10 @@
     </dependencies>
   </metadata>
   <files>
+    <file src=".\ОтладитьПутьОнлайн.bat" target="NuGet_Forge" />
     <file src=".\NuGet_Forge.bat" target="NuGet_Forge" />
     <file src=".\nuget.exe" target="NuGet_Forge" />
     <file src=".\NuGet_Forge_ReadMe.txt" target="NuGet_Forge" />
-<!--    <file src=".\Example\Package_ArgeCode.nuspec" target="\Example" />-->
     <file src=".\USSSR.png" target="" />
   </files>
 </package>
