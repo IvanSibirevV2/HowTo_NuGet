@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>AskNet</id>
+    <version>0.0.1</version>
+    <authors>SibirevIvanV2</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/IvanSibirevV2/AskNet</projectUrl>
+    <repository type="git" url="https://github.com/IvanSibirevV2/AskNet" />
+    <icon>AskNet_Тян.png</icon>
+    <description>Nuget package C# when called AskNet.Ask(), returns enum which platform package was installed</description>
+    <releaseNotes>
+Nuget package C# when called AskNet.Ask(), returns enum which platform package was installed
+</releaseNotes>
+    <tags>Windows Tool package C# NET Core SibirevIvanV2</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework2.0" />
+      <group targetFramework=".NETFramework3.0" />
+      <group targetFramework=".NETFramework3.5" />
+	  <group targetFramework=".NETFramework4.0" />
+	  <group targetFramework=".NETFramework4.5" />
+	  <group targetFramework=".NETFramework4.5.1" />
+	  <group targetFramework=".NETFramework4.5.2" />
+	  <group targetFramework=".NETFramework4.6" />
+	  <group targetFramework=".NETFramework4.6.1" />
+	  <group targetFramework=".NETFramework4.6.2" />
+	  <group targetFramework=".NETFramework4.7" />
+	  <group targetFramework=".NETFramework4.7.1" />
+	  <group targetFramework=".NETFramework4.7.2" />
+	  <group targetFramework=".NETFramework4.8" />
+   </dependencies>
+  </metadata>
+  <files>
+    <file src=".\AskNet_Тян.png" target="" />
+    <file src="../../../../AskNetEXE/AskNet_2_0/bin/Debug/AskNet_2_0.dll" target="lib\net20" />
+    <file src="../../../../AskNetEXE/AskNet_2_0/bin/Debug/AskNet_2_0.pdb" target="lib\net20" />    
+    <file src="../../../../AskNetEXE/AskNet_3_0/bin/Debug/AskNet_3_0.dll" target="lib\net30" />
+    <file src="../../../../AskNetEXE/AskNet_3_0/bin/Debug/AskNet_3_0.pdb" target="lib\net30" />    
+    <file src="../../../../AskNetEXE/AskNet_3_5/bin/Debug/AskNet_3_5.dll" target="lib\net35" />
+    <file src="../../../../AskNetEXE/AskNet_3_5/bin/Debug/AskNet_3_5.pdb" target="lib\net35" />    
+    <file src="../../../../AskNetEXE/AskNet_4_0/bin/Debug/AskNet_4_0.dll" target="lib\net40" />
+    <file src="../../../../AskNetEXE/AskNet_4_0/bin/Debug/AskNet_4_0.pdb" target="lib\net40" />    
+    <file src="../../../../AskNetEXE/AskNet_4_5/bin/Debug/AskNet_4_5.dll" target="lib\net45" />
+    <file src="../../../../AskNetEXE/AskNet_4_5/bin/Debug/AskNet_4_5.pdb" target="lib\net45" />    
+    <file src="../../../../AskNetEXE/AskNet_4_5_1/bin/Debug/AskNet_4_5_1.dll" target="lib\net451" />
+    <file src="../../../../AskNetEXE/AskNet_4_5_1/bin/Debug/AskNet_4_5_1.pdb" target="lib\net451" />    
+    <file src="../../../../AskNetEXE/AskNet_4_5_2/bin/Debug/AskNet_4_5_2.dll" target="lib\net452" />
+    <file src="../../../../AskNetEXE/AskNet_4_5_2/bin/Debug/AskNet_4_5_2.pdb" target="lib\net452" />    
+	<file src="../../../../AskNetEXE/AskNet_4_6/bin/Debug/AskNet_4_6.dll" target="lib\net46" />
+    <file src="../../../../AskNetEXE/AskNet_4_6/bin/Debug/AskNet_4_6.pdb" target="lib\net46" />    
+	<file src="../../../../AskNetEXE/AskNet_4_6_1/bin/Debug/AskNet_4_6_1.dll" target="lib\net461" />
+    <file src="../../../../AskNetEXE/AskNet_4_6_1/bin/Debug/AskNet_4_6_1.pdb" target="lib\net461" />    
+	<file src="../../../../AskNetEXE/AskNet_4_6_2/bin/Debug/AskNet_4_6_2.dll" target="lib\net462" />
+    <file src="../../../../AskNetEXE/AskNet_4_6_2/bin/Debug/AskNet_4_6_2.pdb" target="lib\net462" />    
+	<file src="../../../../AskNetEXE/AskNet_4_7/bin/Debug/AskNet_4_7.dll" target="lib\net47" />
+    <file src="../../../../AskNetEXE/AskNet_4_7/bin/Debug/AskNet_4_7.pdb" target="lib\net47" />    
+	<file src="../../../../AskNetEXE/AskNet_4_7_1/bin/Debug/AskNet_4_7_1.dll" target="lib\net471" />
+    <file src="../../../../AskNetEXE/AskNet_4_7_1/bin/Debug/AskNet_4_7_1.pdb" target="lib\net471" />    
+	<file src="../../../../AskNetEXE/AskNet_4_7_2/bin/Debug/AskNet_4_7_2.dll" target="lib\net472" />
+    <file src="../../../../AskNetEXE/AskNet_4_7_2/bin/Debug/AskNet_4_7_2.pdb" target="lib\net472" />    
+	<file src="../../../../AskNetEXE/AskNet_4_8/bin/Debug/AskNet_4_8.dll" target="lib\net48" />
+    <file src="../../../../AskNetEXE/AskNet_4_8/bin/Debug/AskNet_4_8.pdb" target="lib\net48" />    
+  </files>
+</package>

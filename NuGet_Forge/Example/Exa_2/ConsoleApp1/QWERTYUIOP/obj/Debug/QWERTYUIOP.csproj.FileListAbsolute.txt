@@ -1,5 +1,0 @@
-C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_5\ConsoleApp1\QWERTYUIOP\bin\Debug\QWERTYUIOP.dll
-C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_5\ConsoleApp1\QWERTYUIOP\bin\Debug\QWERTYUIOP.pdb
-C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_5\ConsoleApp1\QWERTYUIOP\obj\Debug\QWERTYUIOP.csproj.CoreCompileInputs.cache
-C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_5\ConsoleApp1\QWERTYUIOP\obj\Debug\QWERTYUIOP.dll
-C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_5\ConsoleApp1\QWERTYUIOP\obj\Debug\QWERTYUIOP.pdb
